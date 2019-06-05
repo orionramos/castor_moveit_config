@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: castor2_description
+    relative_path: urdf/castor_urdf_description.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/castor.srdf
+  CONFIG:
+    author_name: orion
+    author_email: orion@gmail.com
+    generated_timestamp: 1559767561
